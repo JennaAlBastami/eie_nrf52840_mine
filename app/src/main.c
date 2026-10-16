@@ -36,6 +36,7 @@ int main(void) {
     //}
     if (BTN_check_clear_pressed(BTN0)) {
       LED_toggle(LED0);
+      printk("Button 0 pressed!\n");
     }
     k_msleep(SLEEP_MS);
   }
