@@ -20,6 +20,8 @@ int main(void) {
     return 0;
   }
 
+  LED_blink(LED0, LED_1HZ);
+  
   while (1) {
     k_msleep(SLEEP_MS);
   }
